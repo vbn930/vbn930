@@ -11,9 +11,7 @@ Currently focusing on cloud-native architecture and real-time systems with C# & 
 # 💪 Skills
 
 ### Platforms & Languages  
-- C / C++
-- C# (.NET 8)  
-- Python  
+- C / C++ / C# (.NET 8) / Python  
 - Bash / Linux  
 - Azure (Container Apps, Key Vault, Cosmos DB, ACR)  
 - Docker
