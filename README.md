@@ -10,19 +10,28 @@ Currently focusing on cloud-native architecture and real-time systems with C# & 
 
 # 💪 Skills
 
-### Platforms & Languages  
-- C / C++ / C# (.NET 8) / Python  
-- Bash / Linux  
-- Azure (Container Apps, Key Vault, Cosmos DB, ACR)  
-- Docker
-- RESTful API  
-- Git & GitHub Actions
+### ⚙️ Languages & Runtime
+- C#, Python, C++, C
+- .NET 8, ASP.NET Core, Entity Framework
 
-### Tools & Frameworks  
-- ASP.NET Core Web API
-- OpenTelemetry (Tracing)  
-- Azure SDK (Identity, Secrets, Cosmos)
-- Visual Studio / VS Code  
+### ☁️ Cloud & DevOps
+- Microsoft Azure (Key Vault, Container App, ACR, Cosmos DB)
+- Docker, GitHub Actions, OpenTelemetry
+
+### 🛠 Backend Engineering
+- REST API, Middleware Architecture, API Security (API Key, RBAC)
+- In-Memory Caching, Stateless Design, Dependency Injection
+- Microservices & Service-to-Service Authentication
+
+### 🕹 Game Server Design
+- Real-time gameplay logic
+- Game state management with persistence strategies
+- Battle system, Level scaling, Map generation, Reward logic
+
+### 📊 Distributed Systems & Telemetry
+- Distributed tracing with OpenTelemetry
+- Performance optimization through cache-first reads
+- Multi-layer architecture (Gateway → Game Service → DB)
 
 # 🚀 Projects
 
