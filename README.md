@@ -1,4 +1,4 @@
-# 😉LEE DO HUN
+# 😉Dohun Lee
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=vbn930)](https://solved.ac/vbn930)
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vbn930)](https://github.com/anuraghazra/github-readme-stats)
@@ -22,5 +22,3 @@
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-003D8F?style=flat-square&logo=github&link=https://soo-vely-dev.tistory.com/)](https://www.linkedin.com/in/dohun-lee-304971313/)
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kimsh1691@gmail.com)](mailto:vbn9302@gmail.com)
 [![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:rlatngus1691@naver.com)](mailto:vbn930@naver.com)
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvbn930%2Fhit-counter&count_bg=%233DC7C8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
