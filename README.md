@@ -3,11 +3,6 @@
 A backend developer passionate about building scalable systems & game servers.  
 Currently focusing on cloud-native architecture and real-time systems with C# & .NET.
 
----
-
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=vbn930)](https://solved.ac/vbn930)
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vbn930)](https://github.com/anuraghazra/github-readme-stats)
-
 # 💪 Skills
 
 ### Languages & Runtime
