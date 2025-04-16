@@ -10,7 +10,7 @@ Currently focusing on cloud-native architecture and real-time systems with C# & 
 
 # 💪 Skills
 
-### ⚙Languages & Runtime
+### Languages & Runtime
 - C#, Python, C++, C
 - .NET 8, ASP.NET Core, Entity Framework
 
