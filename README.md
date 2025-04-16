@@ -1,22 +1,47 @@
-# 😉Dohun Lee
+# 👋 Hello, I'm Dohun!
+
+A backend developer passionate about building scalable systems & game servers.  
+Currently focusing on cloud-native architecture and real-time systems with C# & .NET.
+
+---
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=vbn930)](https://solved.ac/vbn930)
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vbn930)](https://github.com/anuraghazra/github-readme-stats)
 
-# 💪Skills
-### Platforms & Languages
-![python](https://img.shields.io/badge/python-3776AB.svg?&style=for-the-badge&logo=python&logoColor=white) 
-![cplusplus](https://img.shields.io/badge/C++-00599C.svg?&style=for-the-badge&logo=cplusplus&logoColor=white) 
-![c](https://img.shields.io/badge/c-A8B9CC.svg?&style=for-the-badge&logo=c&logoColor=white) 
-![django](https://img.shields.io/badge/django-092E20.svg?&style=for-the-badge&logo=django&logoColor=white) 
-![selenium](https://img.shields.io/badge/selenium-43B02A.svg?&style=for-the-badge&logo=selenium&logoColor=white) 
-![pandas](https://img.shields.io/badge/pandas-150458.svg?&style=for-the-badge&logo=pandas&logoColor=white)
+# 💪 Skills
 
-### Tools
-![git](https://img.shields.io/badge/git-F05032.svg?&style=for-the-badge&logo=git&logoColor=white) 
-![githubactions](https://img.shields.io/badge/github%20actions-2088FF.svg?&style=for-the-badge&logo=githubactions&logoColor=white) 
-![docker](https://img.shields.io/badge/docker-2496ED.svg?&style=for-the-badge&logo=docker&logoColor=white) 
-![unrealengine](https://img.shields.io/badge/Unreal%20Engine-0E1128.svg?&style=for-the-badge&logo=unrealengine&logoColor=white)
+### Platforms & Languages  
+- C / C++
+- C# (.NET 8)  
+- Python  
+- Bash / Linux  
+- Azure (Container Apps, Key Vault, Cosmos DB, ACR)  
+- Docker
+- RESTful API  
+- Git & GitHub Actions
+
+### Tools & Frameworks  
+- ASP.NET Core Web API
+- OpenTelemetry (Tracing)  
+- Azure SDK (Identity, Secrets, Cosmos)
+- Visual Studio / VS Code  
+
+# 🚀 Projects
+
+### Discord-Based Text RPG Server  
+A microservices-based text RPG game designed for Discord.  
+Users play through DMs using command buttons with real-time API interaction.
+
+- Built using **.NET 8**, **Discord.NET**, **Azure Container Apps**
+- Designed with **microservices architecture**, separating Discord service and game state service
+- Implemented **API Key authentication** middleware with **Azure Key Vault + In-Memory Cache**
+- Cached game data to memory to minimize Cosmos DB I/O for performance (reduced response time: 200ms → 1–2ms)
+- Included **OpenTelemetry tracing** for distributed diagnostics across services
+- Deployed via **GitHub Actions CI/CD**, automatically pushing Docker images to Azure Container Registry
+
+**Tech Stack:** `.NET 8`, `Discord.NET`, `Azure Key Vault`, `Cosmos DB`, `Docker`, `OpenTelemetry`, `GitHub Actions`
+
+🔗 [View on GitHub](https://github.com/Dungeon-RPG-Discord-Game-Server)
 
 # :mailbox_with_mail: Contacts
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-003D8F?style=flat-square&logo=github&link=https://soo-vely-dev.tistory.com/)](https://www.linkedin.com/in/dohun-lee-304971313/)
