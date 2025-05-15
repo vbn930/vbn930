@@ -1,7 +1,6 @@
 # 👋 Hello, I'm Dohun!
 
 🎮 I'm a backend developer passionate about **game server architecture** and **cloud-native systems**.  
-🛠️ I enjoy designing scalable systems with **.NET**, **Azure**, and **microservices**.  
 🎓 Currently studying **Computer Science (RTIS)** at **DigiPen Institute of Technology**.
 
 # 💪 Skills
