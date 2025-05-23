@@ -6,13 +6,13 @@
 # 💪 Skills
 
 ### Core
-C# · .NET 8 · Python · C  · C++ · REST API · Docker
+C# · C++ · C · Python  · ASP.NET Core · REST API · Unreal Engine
 
 ### Cloud & DevOps
 Azure (Container App, Key Vault, Cosmos DB) · GitHub Actions · OpenTelemetry
 
 ### Backend / Game Server
-Microservices · In-Memory Caching · API Key Auth · Game State Management · Turn-based Logic
+Microservices · In-Memory Caching · API Key Auth
 
 
 # 🚀 Projects
