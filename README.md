@@ -1,18 +1,21 @@
 # 👋 Hello, I'm Dohun!
 
-🎮 I'm a backend developer passionate about **game server architecture** and **cloud-native systems**.  
+🎮 I'm a software developer passionate about **web/test automation** and **game server architecture**.  
 🎓 Currently studying **Computer Science (RTIS)** at **DigiPen Institute of Technology**.
 
 # 💪 Skills
 
 ### Core
-C# · C++ · C · Python  · ASP.NET Core · REST API · Unreal Engine
+Python · C# · C++ · C
+
+### Automation
+Selenium · BeautifulSoup · Pandas
 
 ### Cloud & DevOps
 Azure (Container App, Key Vault, Cosmos DB) · GitHub Actions · OpenTelemetry
 
 ### Backend / Game Server
-Microservices · In-Memory Caching · API Key Auth
+Microservices · In-Memory Caching · API Key Auth · ASP.NET Core · REST API · Unreal Engine
 
 
 # 🚀 Projects
