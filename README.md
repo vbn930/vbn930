@@ -1,21 +1,24 @@
 # 👋 Hello, I'm Dohun!
 
-🎮 I'm a software developer passionate about **web/test automation** and **game server architecture**.  
+🎮 I'm a game developer passionate about **game server network** and **test automation**.  
 🎓 Currently studying **Computer Science (RTIS)** at **DigiPen Institute of Technology**.
 
 # 💪 Skills
 
 ### Core
-Python · C# · C++ · C
+C++ · C# · Python
+
+### Game Engine
+Unreal Engine · Unity
+
+### Server
+TCP/IP Programming (socket, IOCP, epoll) · ASP.NET Core · REST API
 
 ### Automation
 Selenium · BeautifulSoup · Pandas
 
 ### Cloud & DevOps
 Azure (Container App, Key Vault, Cosmos DB) · GitHub Actions · OpenTelemetry
-
-### Backend / Game Server
-Microservices · In-Memory Caching · API Key Auth · ASP.NET Core · REST API · Unreal Engine
 
 
 # 🚀 Projects
