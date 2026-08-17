@@ -92,7 +92,7 @@ An implementation of NVIDIA's end-to-end learning approach for autonomous drivin
 
 **C# · .NET 8 · Azure · REST · Cosmos DB · Docker · OpenTelemetry**
 
-A cloud-native backend for a Discord-based multiplayer RPG.
+A cloud-native backend for a Discord-based turn-based RPG.
 
 - Designed two independently deployable services for Discord communication and game-state management.
 - Implemented REST-based service communication and API-key authentication.
