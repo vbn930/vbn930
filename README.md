@@ -127,6 +127,7 @@ A monocular-camera interface that translates hand gestures into mouse input.
 **DigiPen Institute of Technology · Sep 2025 – Dec 2025**
 
 - Assisted students with **C/C++ network programming** assignments covering TCP/IP, UDP, sockets, non-blocking I/O, and client-server architecture.
+- Collaborated with the course instructor to design and develop networking programming assignments and projects.
 - Helped debug networking, concurrency, packet-handling, and protocol-level issues.
 - Explained networking and distributed-systems concepts during labs and individual troubleshooting sessions.
 
