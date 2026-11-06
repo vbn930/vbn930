@@ -1,174 +1,58 @@
-# Hi, I'm Dohun Lee 👋
+# Dohun Lee
 
-### Interests: Computer Vision & Motion Estimation
+I'm an M.Sc. Computer Science student at the University of Stuttgart, interested in computer vision and motion estimation. My background is in C++ networking, real-time simulation and Python automation. At Rennteam's Driverless Perception team, I'm currently studying LiDAR motion compensation.
 
-I am an **M.Sc. Computer Science student at the University of Stuttgart**, with a B.S. in **Computer Science in Real-Time Interactive Simulation** from **DigiPen Institute of Technology**.
+[LinkedIn](https://www.linkedin.com/in/dohun-lee-304971313/) · [Email](mailto:st205052@stud.uni-stuttgart.de)
 
-My current interests are **computer vision and motion estimation**. My background is primarily in **C++, real-time systems, networking, simulation, and graphics**, with project experience in **Python automation, computer vision, and machine learning**.
+## Selected projects
 
----
+### [Realtime-Consistency-Sim](https://github.com/vbn930/Realtime-Consistency-Sim)
 
-## 🛠 Tech Stack
+**C++ · Unreal Engine 5 · UDP · Python**
 
-### Languages
+A simulation of client-side state reconstruction under latency and packet loss. I implemented snapshot buffering, interpolation and constant-velocity dead reckoning, with CSV telemetry.
 
-![C++](https://img.shields.io/badge/C++17%2F20-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+The offline Python benchmark compares reconstruction methods over repeated seeds and examines the trade-off between position error and smoothness. Its replay results are separate from the Unreal measurements.
 
-### Systems & Software
+[Benchmark and findings](https://github.com/vbn930/Realtime-Consistency-Sim/tree/master/benchmark) · [Research report](https://github.com/vbn930/Realtime-Consistency-Sim/blob/master/Docs/Research_Report.pdf)
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+### [SelfDriving-Simulator](https://github.com/vbn930/SelfDriving-Simulator)
 
-`TCP/IP` · `UDP` · `Socket Programming` · `REST APIs` · `Distributed Systems`
+**Python · PyTorch · OpenCV · Unity**
 
-### Simulation & Graphics
+A solo learning/reproduction project based on NVIDIA's end-to-end driving paper. I built a modified Dave-2-style CNN that predicts steering and throttle from camera images and vehicle speed, then connected inference to Unity over TCP. Evaluation is simulation-only.
 
-![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-313131?style=flat-square&logo=unrealengine&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+<a href="https://www.youtube.com/watch?v=v07TapYTM1Y"><img src="https://img.youtube.com/vi/v07TapYTM1Y/mqdefault.jpg" width="320" alt="Watch the Unity driving demo for the Dave-2-style PyTorch model"></a>
 
-`Real-Time Simulation` · `Physics` · `Computer Graphics` · `GLSL`
+[Watch the driving demo](https://www.youtube.com/watch?v=v07TapYTM1Y)
 
-### AI & Computer Vision
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-`CNNs` · `Computer Vision` · `MediaPipe` · `Pandas` · `NumPy`
-
----
-
-# 🚀 Featured Projects
-
-## Realtime-Consistency-Sim
-### Networked Mobile-Robot State Estimation
-
-**C++17 · Unreal Engine 5 · UDP Networking · Python · Pandas**
-
-A real-time networked simulation for studying mobile-robot state consistency under degraded network conditions.
-
-- Built a **server-authoritative simulation** using a custom UDP networking layer.
-- Implemented timestamped state buffering and trajectory interpolation.
-- Implemented **constant-velocity dead reckoning** for temporary packet loss.
-- Added smooth state reconciliation after network recovery.
-- Tested behavior under configurable **latency and packet loss**.
-- Logged simulation telemetry and analyzed results with Python, Pandas, and Matplotlib.
-
-[Repository](https://github.com/vbn930/Realtime-Consistency-Sim) ·
-[Research Report](https://github.com/vbn930/Realtime-Consistency-Sim/blob/master/Docs/Research_Report.pdf)
-
----
-
-## SelfDriving-Simulator
-### End-to-End Autonomous Driving
-
-**Python · PyTorch · OpenCV · Unity 3D · CNN**
-
-An implementation of NVIDIA's end-to-end learning approach for autonomous driving, evaluated in a Unity simulation environment.
-
-- Built a modified **Dave-2-style CNN** for predicting steering and throttle.
-- Used front-camera images together with vehicle speed as model inputs.
-- Developed the training pipeline with PyTorch `Dataset`, `DataLoader`, MSE loss, and Adam.
-- Implemented image preprocessing and horizontal-flip augmentation using OpenCV.
-- Evaluated the trained model through autonomous driving in Unity.
-
-[Repository](https://github.com/vbn930/SelfDriving-Simulator) ·
-[Demo](https://www.youtube.com/watch?v=v07TapYTM1Y)
-
----
-
-## Discord RPG
-### Cloud-Native Game Server
-
-**C# · .NET 8 · Azure · REST · Cosmos DB · Docker · OpenTelemetry**
-
-A cloud-native backend for a Discord-based turn-based RPG.
-
-- Designed two independently deployable services for Discord communication and game-state management.
-- Implemented REST-based service communication and API-key authentication.
-- Used **Azure Cosmos DB** for persistent game state and **Azure Key Vault** for secret management.
-- Added in-memory caching to reduce repeated remote secret lookups.
-- Containerized services with Docker and deployed them using **Azure Container Apps**.
-- Integrated GitHub Actions and OpenTelemetry for deployment and observability.
-
-[Project](https://github.com/Dungeon-RPG-Discord-Game-Server)
-
----
-
-## VisionCursor
-### Vision-Based Touchless Human-Computer Interface
+### [VisionCursor](https://github.com/vbn930/vision-cursor)
 
 **Python · OpenCV · MediaPipe · PyAutoGUI**
 
-A monocular-camera interface that translates hand gestures into mouse input.
+A webcam interface that maps hand landmarks to cursor movement and clicks. I implemented geometric gesture rules and gesture-transition handling, with separate vision and OS-input modules.
 
-- Extracted real-time hand landmarks using MediaPipe.
-- Implemented geometric finger-state and gesture classification.
-- Used thumb-index pinch distance for click detection.
-- Separated computer-vision, gesture-processing, and OS-input components.
+### [Discord RPG](https://github.com/Dungeon-RPG-Discord-Game-Server)
 
-[Repository](https://github.com/vbn930/vision-cursor)
+**C# · .NET 8 · Azure · Docker**
 
----
+A solo cloud systems design project with separate Discord interaction and game-state services. It uses authenticated REST communication and Cosmos DB persistence; active player state is held in process-local memory.
 
-# 💼 Experience
+[Game-state service](https://github.com/Dungeon-RPG-Discord-Game-Server/game-state-service) · [Discord service](https://github.com/Dungeon-RPG-Discord-Game-Server/discord-message-receiver)
 
-### Teaching Assistant — Computer Networks I
-**DigiPen Institute of Technology · Sep 2025 – Dec 2025**
+## Tools I use
 
-- Assisted students with **C/C++ network programming** assignments covering TCP/IP, UDP, sockets, non-blocking I/O, and client-server architecture.
-- Collaborated with the course instructor to design and develop networking programming assignments and projects.
-- Helped debug networking, concurrency, packet-handling, and protocol-level issues.
-- Explained networking and distributed-systems concepts during labs and individual troubleshooting sessions.
+Python, C++17/20, C# · PyTorch, OpenCV, MediaPipe · Unreal Engine, Unity  
+Linux, Git, Docker · TCP/UDP sockets, REST APIs · Pandas, NumPy
 
-### Freelance Python Automation Developer
-**South Korea · 2024**
+## Background
 
-Worked with multiple clients to build practical Python automation and data-collection systems.
+- **Computer Networks I TA, DigiPen** · Sep–Dec 2025. Supported students with C/C++ networking assignments and helped the instructor design and develop assignments.
+- **Freelance Python automation** · Mar–Aug 2024. Built product-monitoring and catalog-data tools, including Discord notifications and Excel export.
+- **Computer Operations Sergeant, Republic of Korea Air Force** · Nov 2021–Aug 2023. Maintained network equipment and servers; handled security updates on isolated internal networks.
 
-**AMNotify KR**
-- Built long-running Python/Selenium product-monitoring systems with authenticated proxy rotation, configurable polling, Discord alerts, logging, and persistent product records.
+## Education
 
-**BikeOnline Korea**
-- Developed Python/Selenium crawlers for motorcycle-accessory catalogs, including make-model-year traversal, product metadata, options, descriptions, images, and structured Excel export.
-
-**Other Clients**
-- Developed additional data-collection and automation tools for health-product information, medical terminology, and user-activity tracking.
-
-### Computer Operations Sergeant
-**Republic of Korea Air Force · Nov 2021 – Aug 2023**
-
-- Maintained communication/network equipment, servers, IT assets, and server-room infrastructure.
-- Diagnosed hardware, connectivity, and system issues under operational security procedures.
-- Performed scheduled antivirus definition updates and endpoint-security maintenance on **isolated internal-network systems**.
-
----
-
-# 🎓 Education
-
-### University of Stuttgart
-**M.Sc. Computer Science · Oct 2026 – present (Winter Semester 2026/27)**
-
-Interests: Computer Vision · Motion Estimation · Robotics · Autonomous Systems · AI · Simulation
-
-### DigiPen Institute of Technology
-**B.S. Computer Science in Real-Time Interactive Simulation · Apr 2026**
-
-**Cum Laude · GPA: 3.52 / 4.00**
-
-Dean's List: Fall 2024 · Spring 2025 · Fall 2025
-
-### Keimyung University
-**B.E. DigiPen Game Engineering · Aug 2026**
-
-Dual-degree pathway · GPA: **3.6023 / 4.50**
-
----
-
-# 📫 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dohun_Lee-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dohun-lee-304971313/)
-[![Email](https://img.shields.io/badge/Email-st205052%40stud.uni-stuttgart.de-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:st205052@stud.uni-stuttgart.de)
-[![GitHub](https://img.shields.io/badge/GitHub-vbn930-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vbn930)
+- **University of Stuttgart** · M.Sc. Computer Science, Oct 2026–present.
+- **DigiPen Institute of Technology** · B.S. Computer Science in Real-Time Interactive Simulation, Apr 2026. Cum Laude.
+- **Keimyung University** · B.E. DigiPen Game Engineering, Aug 2026. Dual-degree pathway.
