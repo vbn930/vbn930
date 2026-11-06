@@ -1,18 +1,10 @@
 # Hi, I'm Dohun Lee 👋
 
-### Software Engineer | C++ · Python · Real-Time Systems · Simulation · Robotics & AI
+### Interests: Computer Vision & Motion Estimation
 
-I am an incoming **M.Sc. Computer Science student at the University of Stuttgart**, with a B.S. in **Computer Science in Real-Time Interactive Simulation** from **DigiPen Institute of Technology**.
+I am an **M.Sc. Computer Science student at the University of Stuttgart**, with a B.S. in **Computer Science in Real-Time Interactive Simulation** from **DigiPen Institute of Technology**.
 
-My background is primarily in **C++, real-time systems, networking, simulation, and graphics**, with additional hands-on experience in **Python automation, computer vision, and machine learning**.
-
-I am currently interested in applying this systems background to:
-
-- Robotics & Autonomous Systems
-- Robot Perception
-- Computer Vision
-- Simulation & Digital Twins
-- Real-Time / Distributed Systems
+My current interests are **computer vision and motion estimation**. My background is primarily in **C++, real-time systems, networking, simulation, and graphics**, with project experience in **Python automation, computer vision, and machine learning**.
 
 ---
 
@@ -157,9 +149,9 @@ Worked with multiple clients to build practical Python automation and data-colle
 # 🎓 Education
 
 ### University of Stuttgart
-**M.Sc. Computer Science · Incoming, Winter Semester 2026/27**
+**M.Sc. Computer Science · Oct 2026 – present (Winter Semester 2026/27)**
 
-Interests: Robotics · Autonomous Systems · Computer Vision · AI · Simulation
+Interests: Computer Vision · Motion Estimation · Robotics · Autonomous Systems · AI · Simulation
 
 ### DigiPen Institute of Technology
 **B.S. Computer Science in Real-Time Interactive Simulation · Apr 2026**
@@ -178,5 +170,5 @@ Dual-degree pathway · GPA: **3.6023 / 4.50**
 # 📫 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dohun_Lee-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dohun-lee-304971313/)
-[![Email](https://img.shields.io/badge/Email-vbn9302%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:vbn9302@gmail.com)
+[![Email](https://img.shields.io/badge/Email-st205052%40stud.uni-stuttgart.de-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:st205052@stud.uni-stuttgart.de)
 [![GitHub](https://img.shields.io/badge/GitHub-vbn930-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vbn930)
